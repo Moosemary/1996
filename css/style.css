@@ -1,0 +1,87 @@
+/* Moosemarys hemsida – 1996-stil */
+
+body {
+  background: #c0c0c0 url("../resources/bg-gray.png");
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  margin: 8px;
+}
+
+a:link    { color: #0000ee; }
+a:visited { color: #551a8b; }
+a:active  { color: #ff0000; }
+
+h1 { font-size: 32px; font-weight: bold; margin: 21px 0; }
+h2 { font-size: 24px; font-weight: bold; margin: 19px 0; }
+h3 { font-size: 19px; font-weight: bold; margin: 18px 0; }
+
+img { image-rendering: pixelated; }
+a img { border: 2px solid #0000ee; }
+a:visited img { border-color: #551a8b; }
+img.noborder, a img.noborder { border: 0; }
+
+/* Klassisk 3D-linje */
+hr {
+  border: 0;
+  border-top: 2px solid #808080;
+  border-bottom: 2px solid #fff;
+  height: 0;
+  margin: 12px 0;
+}
+
+/* 3D-knapp */
+.btn, button {
+  display: inline-block;
+  background: #c0c0c0;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 4px 14px;
+  border: 2px solid;
+  border-color: #fff #404040 #404040 #fff;
+  box-shadow: inset -1px -1px #808080;
+  border-radius: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn:active, button:active {
+  border-color: #404040 #fff #fff #404040;
+  box-shadow: inset 1px 1px #808080;
+}
+a.btn:link, a.btn:visited { color: #000; }
+
+/* Ruta med inpressad ram (inputs, gästbok osv) */
+.sunken {
+  background: #fff;
+  border: 2px solid;
+  border-color: #808080 #fff #fff #808080;
+  padding: 6px;
+}
+.raised {
+  background: #c0c0c0;
+  border: 2px solid;
+  border-color: #fff #404040 #404040 #fff;
+  padding: 8px;
+}
+
+input[type=text], input[type=email], textarea {
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  border: 2px solid;
+  border-color: #808080 #fff #fff #808080;
+  background: #fff;
+  border-radius: 0;
+}
+
+table { border-collapse: separate; }
+.center { text-align: center; }
+.small  { font-size: 12px; }
+
+/* Blinkande text (blink-taggen är borta i moderna webbläsare) */
+.blink { animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { visibility: hidden; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .blink { animation: none; }
+}
