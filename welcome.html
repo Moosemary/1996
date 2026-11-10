@@ -2,11 +2,86 @@
 <html lang="sv">
 <head>
 <meta charset="utf-8">
-<title>Välkommen till 1996</title>
+<title>Välkommen till 1996 - Moosemarys hemsida</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css">
+<style>
+  .page { max-width: 720px; margin: 0 auto; }
+  .banner { text-align: center; }
+  .spin { display: inline-block; perspective: 400px; }
+  .spin span { display: inline-block; font: bold 44px Impact, "Arial Black", sans-serif; letter-spacing: 3px;
+    background: linear-gradient(90deg, #f00, #f90, #ee0, #0b0, #09f, #90f); -webkit-background-clip: text; background-clip: text; color: transparent;
+    -webkit-text-stroke: 1px #000; animation: spin 4s linear infinite; }
+  @keyframes spin { from { transform: rotateY(0); } to { transform: rotateY(360deg); } }
+  .marquee { background: #000; color: #0f0; font-family: "Courier New", monospace; padding: 3px; }
+  .badge { display: inline-block; width: 88px; height: 31px; line-height: 14px; font: bold 10px Arial, sans-serif; text-align: center;
+    border: 2px solid; border-color: #fff #404040 #404040 #fff; vertical-align: middle; margin: 2px; padding-top: 2px; box-sizing: border-box; }
+  .b1 { background: #000080; color: #fff; }
+  .b2 { background: #ffff00; color: #000; }
+  .b3 { background: #008000; color: #fff; }
+  .tip { background: #ffffcc; border: 2px solid; border-color: #808080 #fff #fff #808080; padding: 8px; }
+  @media (prefers-reduced-motion: reduce) { .spin span { animation: none; } }
+</style>
 </head>
 <body>
-<h1>Välkommen till 1996!</h1>
-<p>(Platshållare – riktig välkomstsida byggs i Steg 2.)</p>
+<div class="page">
+
+<div class="banner">
+  <div class="spin"><span>MOOSEMARY</span></div>
+  <h1>Välkommen till 1996!</h1>
+  <div class="marquee"><marquee scrollamount="4">*** Du är ansluten! *** Året är 1996 *** Du surfar på World Wide Web *** Tack för att du ringde upp! ***</marquee></div>
+</div>
+
+<hr>
+
+<h2>Vad är World Wide Web?</h2>
+<p>World Wide Web, eller bara <b>webben</b>, är ett jättestort nät av sidor som är kopplade till varandra med <b>länkar</b>. Du kan hoppa från en sida till en annan, från Stockholm till Kalifornien på några sekunder (eller minuter, beroende på modemet).</p>
+<p>Webben uppfanns 1989&ndash;1991 av Tim Berners-Lee på CERN i Schweiz. Det betyder att den fyller <b>fem år</b> i år. Internet är äldre, men det var först med webben som alla kunde hänga med.</p>
+<p>Idag, 1996, finns det ungefär <b>25 miljoner</b> sidor på webben, och fler tillkommer varje dag. Du är med i en historisk tid!</p>
+
+<hr>
+
+<h2>Så här surfar du &ndash; en guide för nybörjare</h2>
+<p>Du har just påbörjat en resa över Internet, och din webbläsare är ditt fordon. Den här sidan hjälper dig att komma igång med din upptäcktsfärd.</p>
+
+<div class="tip">
+<p><b>1. Klicka på blå eller lila ord.</b><br>
+Ord och fraser som är <u><a href="exempel.html">blå</a></u> eller <u><a href="exempel.html" style="color:#551a8b">lila</a></u> och understrukna är <b>länkar</b> (&quot;hyperlänkar&quot;) till andra sidor. Du klickar <b>en gång</b> med vänster musknapp. Dubbelklicka inte! Prova här: <a href="exempel.html">här är ett exempel</a>.</p>
+
+<p><b>2. Bilder kan också vara länkar.</b><br>
+Bilder med en blå eller lila ram runt sig går också att klicka på.<br>
+<a href="exempel.html"><img src="resources/wlan.gif" width="120" alt="Klicka på bilden!"></a></p>
+
+<p><b>3. Lila betyder att du varit där.</b><br>
+När du har besökt en länk blir den lila, så att du vet var du redan har varit.</p>
+
+<p><b>4. Gå tillbaka med Bakåt-knappen.</b><br>
+Hamnade du fel? Tryck på <b>Bakåt</b> (Back) i verktygsfältet längst upp i fönstret, eller på tangenterna Alt + vänsterpil. Du kan alltid komma tillbaka hit.</p>
+
+<p><b>5. Ha tålamod.</b><br>
+Stora bilder tar tid att ladda. Gå och hämta en kopp kaffe. <i>(Och ring inte någon medan du surfar, för då bryts linjen!)</i></p>
+</div>
+
+<hr>
+
+<h2>Vad nu?</h2>
+<ul>
+  <li><a href="exempel.html">Prova en länk</a> &ndash; det är ofarligt!</li>
+  <li>Länkar till de coolaste sajterna 1996 &ndash; <span class="blink">snart!</span></li>
+  <li>Moosemarys gästbok &ndash; <span class="blink">snart!</span></li>
+  <li>Om Moosemary &ndash; <span class="blink">snart!</span></li>
+</ul>
+
+<hr>
+
+<p class="center">
+  <span class="badge b1">Bäst sett med Netscape Navigator 3.0</span>
+  <span class="badge b2">Gjord i Anteckningar</span>
+  <span class="badge b3">800 x 600 pixlar</span>
+</p>
+<p class="center small">Senast uppdaterad: 14 mars 1996<br>
+Mejla mig: <a href="mailto:moosemary@example.com">moosemary@example.com</a></p>
+
+</div>
 </body>
 </html>

@@ -75,12 +75,12 @@ Varje steg är fristående och kan startas i ett nytt chattfönster. Starta med 
 - **Klart när:** klick → modemljud → landar på `welcome.html`
 
 ### Steg 2 – Välkomstsidan (`welcome.html`)
-- [ ] Rubrik **"Välkommen till 1996!"**
-- [ ] Kort text: vad World Wide Web är, att det är 1996 (webben ~5 år gammal, CERN 1991), att de flesta är på 28,8k-modem
-- [ ] Nybörjarguide inspirerad av Netscapes välkomstsida (egna ord): klicka på blå/lila ord, bilder med ram är länkar, bakåt-knappen, hur man hittar tillbaka hit
-- [ ] Exempellänk ("här är ett exempel") som leder till en rolig mini-sida
-- [ ] Badges: "Bäst sett med Netscape Navigator 3.0", "Gjord i Anteckningar"
-- [ ] Marquee-text, `<blink>`-effekt via CSS/JS, roterande Moosemary-gif
+- [x] Rubrik **"Välkommen till 1996!"**
+- [x] Kort text: vad World Wide Web är, att det är 1996 (webben ~5 år gammal, CERN 1991), att de flesta är på 28,8k-modem
+- [x] Nybörjarguide inspirerad av Netscapes välkomstsida (egna ord): klicka på blå/lila ord, bilder med ram är länkar, bakåt-knappen, hur man hittar tillbaka hit
+- [x] Exempellänk ("här är ett exempel") som leder till en rolig mini-sida
+- [x] Badges: "Bäst sett med Netscape Navigator 3.0", "Gjord i Anteckningar"
+- [x] Marquee-text, `<blink>`-effekt via CSS/JS, roterande Moosemary-gif
 - **Klart när:** en nybörjare förstår hur man surfar
 
 ### Steg 3 – Länksida (`links.html`)
