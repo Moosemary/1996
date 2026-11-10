@@ -59,19 +59,19 @@ Varje steg är fristående och kan startas i ett nytt chattfönster. Starta med 
 *"Läs plan.md och gör Steg N"*. Varje steg slutar med något som går att öppna i webbläsaren.
 
 ### Steg 0 – Repo och grund
-- [ ] `git init`, `.gitignore` (`.DS_Store`), `README.md`
-- [ ] Skapa mapparna enligt strukturen, flytta inget i `resources/`
-- [ ] Skapa `css/style.css` med gemensam 1996-stil: grå textur-bakgrund (generera liten tileable PNG eller CSS-mönster), Times New Roman, blå `#0000EE` / besökt lila `#551A8B` länkar, `<hr>` med 3D-effekt, 3D-knappar (outset/inset-ramar)
-- [ ] Skapa GitHub-repo (`gh repo create`, fråga innan push) och pusha
+- [x] `git init`, `.gitignore` (`.DS_Store`), `README.md`
+- [x] Skapa mapparna enligt strukturen, flytta inget i `resources/`
+- [x] Skapa `css/style.css` med gemensam 1996-stil: grå textur-bakgrund (generera liten tileable PNG eller CSS-mönster), Times New Roman, blå `#0000EE` / besökt lila `#551A8B` länkar, `<hr>` med 3D-effekt, 3D-knappar (outset/inset-ramar)
+- [x] Skapa GitHub-repo (`gh repo create`, fråga innan push) och pusha
 - **Klart när:** repot finns på GitHub och en tom stilad sida syns lokalt
 
 ### Steg 1 – Modem-intro (`index.html`)
-- [ ] Grå Windows 95-/Netscape-liknande dialogruta: "Ringer upp 1996…", ikon (`wlan.gif` om den passar)
-- [ ] Knapp "Connect" (krävs pga autoplay-regler) spelar modem-mp3:n
-- [ ] Statusrader som dyker upp i takt med ljudet: "Ringer…", "Handskakning…", "Ansluten 28 800 bps"
-- [ ] Framstegsstapel som kryper fram, därefter redirect till `welcome.html`
-- [ ] Länk "Hoppa över modemet" är **inte** med (valt bort), men Esc ska funka för tillgänglighet
-- [ ] Respektera `prefers-reduced-motion` med en diskret fallback
+- [x] Grå Windows 95-/Netscape-liknande dialogruta: "Ringer upp 1996…", ikon (`wlan.gif` om den passar)
+- [x] Knapp "Connect" (krävs pga autoplay-regler) spelar modem-mp3:n
+- [x] Statusrader som dyker upp i takt med ljudet: "Ringer…", "Handskakning…", "Ansluten 28 800 bps"
+- [x] Framstegsstapel som kryper fram, därefter redirect till `welcome.html`
+- [x] Ingen "Hoppa över"-länk, men Esc hoppar över (tillgänglighet)
+- [x] Respektera `prefers-reduced-motion` med en diskret fallback
 - **Klart när:** klick → modemljud → landar på `welcome.html`
 
 ### Steg 2 – Välkomstsidan (`welcome.html`)
@@ -133,9 +133,9 @@ Riktiga länkar, varje med en kort humoristisk kommentar och "NY!"-blinkgif:
 - **Klart när:** allt är genomgånget och inga trasiga länkar finns
 
 ### Steg 10 – Publicering
-- [ ] Koppla GitHub-repot till **Netlify** eller **Cloudflare Pages** (ingen build, publicera rotkatalogen)
-- [ ] Verifiera URL, ljud och frames på den publicerade sajten
-- [ ] Lägg URL i `README.md`
+- [x] Koppla GitHub-repot till **Netlify** eller **Cloudflare Pages** (ingen build, publicera rotkatalogen)
+- [x] Verifiera URL, ljud och frames på den publicerade sajten
+- [x] Lägg URL i `README.md`
 - **Klart när:** sajten är live på en publik adress
 
 ## Notis om hosting hos Claude
